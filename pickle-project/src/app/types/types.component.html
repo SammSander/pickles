@@ -1,19 +1,21 @@
+<ul>
+<li *ngFor="let types of type"
+(click)="choosePickle(types)">
+{{types.name}}
+</li>
 
+</ul>
 
-
-<div buttons>
-    <button type="button"> Dill
-
-    </button>
-
-    <button type="button"> Sweet
-
-    </button>
-
-    <button type="button"> Non Fermented
-
-    </button>
-
-    <button onclick="foo()">click me!</button>
-
+<ng-template>
+<div *ngIf="pickle; else elseBlock">
+    <p>Choose a pickle type above to learn more!</p>
+  <h5> This Pickles name: {{pickle.name}}</h5>
+  <h5>This Pickle is from: {{pickle.from}}</h5>
+  <h5>This Pickle was originally made: {{pickle.made}}</h5>
+  <h5>This Pickles taste: {{pickle.taste}}</h5>
+  <h5>Link to recipe: {{pickle.link}}</h5>
 </div>
+
+<ng-template>
+    <p #elseBlock>help</p>
+</ng-template>
