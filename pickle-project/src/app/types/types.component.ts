@@ -32,7 +32,7 @@ choosePickle(types) {
     },
     {
       name: "Dill",
-      from: "here",
+      from: "",
       taste: "Sour",
       made: "made with dill and garlic that is left to fully ferment.",
       link: "https://www.thekitchn.com/how-to-make-dill-pickles-cooking-lessons-from-the-kitchn-193350",
