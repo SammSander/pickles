@@ -13,6 +13,7 @@ export class TypesComponent implements OnInit {
 
 choosePickle(types) {
   this.pickle=types;
+  console.log(types);
 }
 
 

@@ -20,8 +20,8 @@
     
     </ul>
     
-    <ng-template>
-    <div *ngIf="pickle; else elseBlock">
+    
+    <div *ngIf="pickle">
         <p>Choose a pickle type above to learn more!</p>
       <h5> This Pickles name: {{pickle.name}}</h5>
       <h5>This Pickle is from: {{pickle.from}}</h5>
@@ -30,7 +30,4 @@
       <h5>Link to recipe: {{pickle.link}}</h5>
     </div>
     
-    <ng-template>
-        <p #elseBlock>help</p>
-    </ng-template>
     
