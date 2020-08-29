@@ -1,5 +1,5 @@
 button {
-    position: fixed;
+    position:fixed;
    right: 100px;
    color: green;
    background-color: yellow;
@@ -11,19 +11,11 @@ button {
   }
 
  img {
-     position: fixed;
+    position:fixed;
      border-radius: 10px;
-     padding: 25px;
-     width: 100px;
-     
-
+     padding: 15px;
+     width: 100px;  
  }
-
- .navbar-header {
-    transform: translateX(-50%);
-    left: 50%;
-    position: fixed;
-}
 .navbar {
     background-color: green;
     height: 120px;
